@@ -15,7 +15,7 @@ const Sidebar = () => {
       <CDBSidebar textColor="#fff" backgroundColor="#333">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
-            Maintenance Tracker
+            VMan Tracker
           </a>
         </CDBSidebarHeader>
 
@@ -27,8 +27,8 @@ const Sidebar = () => {
             <NavLink exact to="/dashboard" activeclassname="activeClicked">
               <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="#" activeclassname="activeClicked">
-              <CDBSidebarMenuItem icon="chart-line">Maintenance Schedule</CDBSidebarMenuItem>
+            <NavLink exact to="/main-dates" activeclassname="activeClicked">
+              <CDBSidebarMenuItem icon="chart-line">Maintenance Dates</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/main-rec" activeclassname="activeClicked">
               <CDBSidebarMenuItem icon="table">Maintenance Records</CDBSidebarMenuItem>
