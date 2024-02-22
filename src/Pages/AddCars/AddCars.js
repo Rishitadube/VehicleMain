@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./AddCars.css"
+// import "./AddCars.css"
 export default function AddCars () {
     let [array,setArray] = useState([])
     let [inputdata,setInputdata] = useState({vin:"",make:"",model:"",license:""})
