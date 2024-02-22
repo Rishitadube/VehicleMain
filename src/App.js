@@ -4,7 +4,7 @@ import Dashboard from './Pages/Dashboard';
 import Login from './Pages/Login/Login';
 import SignUp from './Pages/SignUp/SignUp';
 import MaintenanceHistory from './Components/MaintenanceHistory';
-// import AddCars from './Pages/AddCars/AddCars';
+import AddCars from './Pages/AddCars/AddCars';
 import { Outlet, Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
@@ -31,8 +31,9 @@ function App() {
         <Route element={<SidebarLayout />}>
           <Route index path='/dashboard' element={<Dashboard />} />
           <Route index path='/main-rec' element={<MaintenanceHistory records={maintenanceRecords} />} />
+          <Route index path='/mycars' element={<AddCars/>} />
           {/* Add other routes with sidebar here */}
-          {/* <Route path='/mycars' element={<AddCars/>} /> */}
+          
         </Route>
 
       </Routes>

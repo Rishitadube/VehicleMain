@@ -25,10 +25,10 @@ const Sidebar = () => {
               <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/" activeclassname="activeClicked">
-              <CDBSidebarMenuItem icon="chart-line">Maintenance Report</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="chart-line">Maintenance Sche</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/" activeclassname="activeClicked">
-              <CDBSidebarMenuItem icon="table">Maintenance History</CDBSidebarMenuItem>
+            <NavLink exact to="/main-rec" activeclassname="activeClicked">
+              <CDBSidebarMenuItem icon="table">Maintenance Records</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/mycars" activeclassname="activeClicked">
               <CDBSidebarMenuItem icon="user">My Cars</CDBSidebarMenuItem>
