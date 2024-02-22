@@ -4,10 +4,10 @@ import "./DashboardDetails.css";
 
 function SmallExample() {
   const carData = {
-    model: "Model Name",
-    year: "Year of Manufacture",
-    vin: "Vehicle id number",
-    license_plate: "License plate number",
+    model: "Mercedes Benz GLC",
+    year: "2022",
+    vin: "MB101",
+    license_plate: "KA09CN1223",
   };
   return (
     <div className="dashboard-container d-flex flex-column border m-2 border-1 border-dark rounded p-2 shadow-sm">
