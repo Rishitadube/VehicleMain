@@ -1,6 +1,6 @@
 import React from 'react';
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import HealthComponent from "src/Components/HealthComponent/HealthComponent";
+import HealthComponent from "../Components/HealthComponent/HealthComponent";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
@@ -26,7 +26,7 @@ return (
           })}
         </HealthComponent>
       </div>
-      <Dashboard />
+      {/* <Dashboard /> */}
     </div>
   );
 }
