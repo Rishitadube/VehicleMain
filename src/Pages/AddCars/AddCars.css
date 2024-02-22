@@ -1,21 +1,19 @@
 
-
 input {
     display: block;
-    width: 30%;
+    width: 35em;
     border : 3px solid rgb(11, 11, 10);
-    margin: 20px 10px;
-    padding: 10px;
     border-radius: 10px;
     &:focus-within{
         box-shadow: 0px 0px 7px rgba(68,64,64,.7);
     }
+    margin: 15px;
 }
 .add-car {
     display: flex;
     color: white;
     background-color: rgb(4, 34, 99);
-    width: 15%;
+    width: 25%;
     justify-content: center;
 }
 button {
@@ -29,9 +27,24 @@ button {
 }
 table
 {
+    margin-top: 0%;
     border-collapse: collapse;
 }
 tr th {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+.tab
+{
+    width: 40em;
+    margin-left: 20px;
+    padding-left: 8%;
+}
+.tab th {
+    padding: 20px;
+}
+.fields 
+{  
+    margin: 40px;
+    padding: 20px;
 }

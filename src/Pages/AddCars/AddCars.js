@@ -23,13 +23,15 @@ export default function AddCars () {
     setArray(total)
   }
     return (
-    <div className=''>
+    <div>
+        <div className="fields">
         <input type="number" value={inputdata.vin || ""} name='vin' placeholder='VIN' onChange={data}/>
         <input type='text' value={inputdata.make || ""} name='make' placeholder='Make' onChange={data}/>
         <input type='text' value={inputdata.model || ""} name='model'placeholder='Model' onChange={data}/>
         <input type='text' value={inputdata.license || ""} name='license' placeholder='License Number' onChange={data}/>
         <button className='add-car' onClick={addinputdata}>Add Car</button>
-        <br/>
+        </div>
+        <div className="tab">
         <table border="5" width="100%">
             <tbody>
                 <tr>
@@ -38,6 +40,12 @@ export default function AddCars () {
                     <th>Model</th>
                     <th>License</th>
                     <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>MB101</td>
+                    <td>Mercedes Benz</td>
+                    <td>GLC</td>
+                    <td>KA09CN1223</td>
                 </tr>
                 {
                     array && array.map(
@@ -56,6 +64,7 @@ export default function AddCars () {
                 }
             </tbody>
         </table>
+        </div>
     </div>
   )
 }
