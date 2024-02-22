@@ -3,6 +3,7 @@ import Sidebar from './Components/Sidebar';
 import Dashboard from './Pages/Dashboard';
 import Login from './Pages/Login/Login';
 import SignUp from './Pages/SignUp/SignUp';
+import MaintenanceHistory from './Components/MaintenanceHistory'
 // import AddCars from './Pages/AddCars/AddCars';
 import { Outlet, Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 
