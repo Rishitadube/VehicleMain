@@ -52,7 +52,7 @@ IconContainer.propTypes = {
 
 const MaintenanceHistory = ({ records }) => {
   const [ratings, setRatings] = useState({});
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
