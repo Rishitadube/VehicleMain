@@ -1,5 +1,6 @@
 import React from 'react'
 import "./SignUp.css"
+import { Button } from 'react-bootstrap'
 
 const SignUp = () => {
   return (
@@ -8,7 +9,7 @@ const SignUp = () => {
         <input type='text' placeholder='Name'/>
         <input type='email' placeholder='Email ID'/>
         <input type='tel' placeholder='Phone No.'/>
-        <div className='sign-btn'>Sign Up</div>
+        <Button className='sign-btn'>Sign Up</Button>
     </div>
   )
 }

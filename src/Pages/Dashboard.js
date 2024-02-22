@@ -3,6 +3,7 @@ import React from 'react';
 import HealthComponent from "../Components/HealthComponent/HealthComponent";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import HealthComponent from '../Components/HealthComponent/HealthComponent';
 
 function Dashboard() {
   const data = {
