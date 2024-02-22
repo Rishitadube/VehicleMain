@@ -23,7 +23,7 @@ export default function AddCars () {
     setArray(total)
   }
     return (
-    <div>
+    <div className='container'>
         <div className="fields">
         <input type="number" value={inputdata.vin || ""} name='vin' placeholder='VIN' onChange={data}/>
         <input type='text' value={inputdata.make || ""} name='make' placeholder='Make' onChange={data}/>
