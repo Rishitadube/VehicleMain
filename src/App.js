@@ -18,7 +18,15 @@ function App() {
       date: '2023-02-28',
       service: 'Steering',
     },
-    // Add more records as needed
+    {
+      date: '2023-02-12',
+      service: 'Tire Alignment',
+    },
+    {
+      date: '2023-02-29',
+      service: 'Brake',
+    },
+
   ];
 
   return (
