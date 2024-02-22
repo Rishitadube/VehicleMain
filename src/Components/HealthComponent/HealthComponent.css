@@ -7,7 +7,7 @@
     align-items: center;
   }
   
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     .health-container {
       width: 40%;
       padding: 50px;
@@ -16,5 +16,4 @@
       justify-content: center;
       align-items: center;
     }
-  }
-  
+  } */

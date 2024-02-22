@@ -22,7 +22,7 @@ function Dashboard() {
             // className="car-img col-lg-4 col-sm-6"
           />
         </div>
-        <div>
+        <div className="justify-content-center row-12">
           <HealthComponent>
             {Object.keys(data).map((key) => {
               return <CircularProgressbar value={data[key]} text={`${key}`} />;
