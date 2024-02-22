@@ -19,12 +19,12 @@ function App() {
       service: 'Steering',
     },
     {
-      date: '2023-02-28',
-      service: 'Steering',
+      date: '2023-02-12',
+      service: 'Tire Alignment',
     },
     {
-      date: '2023-02-28',
-      service: 'Steering',
+      date: '2023-02-29',
+      service: 'Brake',
     },
 
   ];
