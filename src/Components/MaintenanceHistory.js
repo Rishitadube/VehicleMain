@@ -72,11 +72,10 @@ const MaintenanceHistory = ({ records }) => {
     // Update rating for a particular record
     const newRatings = { ...ratings, [index]: value };
     setRatings(newRatings);
-    // Persist ratings in JSON database or local storage
+
     localStorage.setItem("ratings", JSON.stringify(newRatings));
   };
 
-  // Dictionary with all possible service names
   const serviceIcons = {
     "Oil Change": <OilBarrelIcon />,
     "Tire Alignment": <TireRepairRoundedIcon />,
