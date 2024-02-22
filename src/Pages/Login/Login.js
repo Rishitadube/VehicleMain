@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Login.css"
 import { Link } from 'react-router-dom'
+import { Button } from 'react-bootstrap'
 
 const Login = () => {
   return (
@@ -9,7 +10,7 @@ const Login = () => {
         <input type='email' placeholder='Email ID'/>
         <input type='password' placeholder='Password'/>
         <div><h6>New member? <Link to="/SignUp">Sign Up</Link></h6></div>
-        <div className='login-btn '><Link to="/Dashboard"></Link>Login</div>
+        <Button className='login-btn'>Login</Button>
     </div>
   )
 }
