@@ -1,0 +1,21 @@
+.table-item:hover {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 23, 163, 1) 100%
+    );
+  }
+  .table-item {
+    text-transform: capitalize;
+    transition: 500ms;
+    background: rgb(0, 23, 163);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 23, 163, 1) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    color: white;
+    cursor: pointer;
+  }
+  
