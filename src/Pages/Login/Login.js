@@ -10,7 +10,7 @@ const Login = () => {
         <input type='email' placeholder='Email ID'/>
         <input type='password' placeholder='Password'/>
         <div><h6>New member? <Link to="/SignUp">Sign Up</Link></h6></div>
-        <Button className='login-btn'>Login</Button>
+        <Link to="/mycars"><Button className='login-btn'>Login</Button></Link>
     </div>
   )
 }

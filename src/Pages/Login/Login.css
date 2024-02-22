@@ -37,7 +37,7 @@ input
     outline-color: rgb(32,177,255);
 }
 .login-btn {
-    width: 40%;
+    width: 80%;
     height: 3em;
     background-color: rgb(4, 8, 82);
     display: flex;
