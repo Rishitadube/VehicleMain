@@ -40,6 +40,24 @@ function App() {
       comment: "Checked the braking system, everything was good.",
     },
   ];
+  const maintenanceDates = [
+    {
+      date: "2024-03-15",
+      service: "Brake",
+    },
+    {
+      date: "2024-04-28",
+      service: "Tire Alignment",
+    },
+    {
+      date: "2024-05-12",
+      service: "Oil Change",
+    },
+    {
+      date: "2024-02-29",
+      service: "Steering",
+    },
+  ];
 
   return (
     <div className="">
@@ -58,7 +76,7 @@ function App() {
             <Route
               index
               path="/main-dates"
-              element={<MaintenanceDates records={maintenanceRecords} />}
+              element={<MaintenanceDates records={maintenanceDates} />}
             />
             <Route index path="/mycars" element={<AddCars />} />
             {/* Add other routes with sidebar here */}

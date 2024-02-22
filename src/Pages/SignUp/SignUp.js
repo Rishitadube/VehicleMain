@@ -1,7 +1,7 @@
 import React from 'react'
 import "./SignUp.css"
 import { Button } from 'react-bootstrap'
-
+import { Link } from 'react-router-dom'
 const SignUp = () => {
   return (
     <div className='cover-s'>
@@ -9,7 +9,7 @@ const SignUp = () => {
         <input type='text' placeholder='Name'/>
         <input type='email' placeholder='Email ID'/>
         <input type='tel' placeholder='Phone No.'/>
-        <Button className='sign-btn'>Sign Up</Button>
+        <Link to="/mycars"><Button className='sign-btn'>Sign Up</Button></Link>
     </div>
   )
 }

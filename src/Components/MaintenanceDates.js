@@ -47,9 +47,7 @@ const MaintenanceDates = ({ records }) => {
                   {serviceIcons[record.service]} {record.service}
                 </h5>
                 <p className="card-text">
-                  <strong>Date:</strong> {record.date} <br />
-                  <strong>Cost:</strong> Rs.{record.cost} <br />
-                  <strong>Comment:</strong> {record.comment} <br />
+                  <strong>DueDate:</strong> {record.date} <br />
                 </p>
               </div>
             </div>
