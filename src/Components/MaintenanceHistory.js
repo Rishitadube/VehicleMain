@@ -52,6 +52,15 @@ IconContainer.propTypes = {
 
 const MaintenanceHistory = ({ records }) => {
   const [ratings, setRatings] = useState({});
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredRecords = records.filter((record) =>
+    record.service.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   useEffect(() => {
     // Fetch ratings from JSON database or local storage when component mounts
@@ -80,7 +89,14 @@ const MaintenanceHistory = ({ records }) => {
       <div className="row justify-content-center">
         <div className="col-md-6">
           <h2 className="text-white mb-4">Maintenance History</h2>
-          {records.map((record, index) => (
+          <input
+            type="text"
+            className="form-control mb-4"
+            placeholder="Search Service"
+            value={searchTerm}
+            onChange={handleSearch}
+          />
+          {filteredRecords.map((record, index) => (
             <div
               key={index}
               className="card mb-3 bg-white bg-opacity-75 position-relative"
