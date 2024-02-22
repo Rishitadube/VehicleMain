@@ -13,18 +13,26 @@ function App() {
     {
       date: '2023-01-15',
       service: 'Oil Change',
+      cost: 1000,
+      comment: 'Changed oil as part of yearly maintenance.',
     },
     {
       date: '2023-02-28',
       service: 'Steering',
+      cost: 10000,
+      comment: 'Steering wheel was cleaned and polished.',
     },
     {
       date: '2023-02-12',
       service: 'Tire Alignment',
+      cost: 15000 ,
+      comment: 'Front tires were unaligned, hence aligned the front tires.' ,
     },
     {
       date: '2023-02-29',
       service: 'Brake',
+      cost: 500,
+      comment: 'Checked the braking system, everything was good.' ,
     },
 
   ];

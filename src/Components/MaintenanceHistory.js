@@ -106,6 +106,8 @@ const MaintenanceHistory = ({ records }) => {
                 </h5>
                 <p className="card-text">
                   <strong>Date:</strong> {record.date} <br />
+                  <strong>Cost:</strong> Rs.{record.cost} <br />
+                  <strong>Comment:</strong> {record.comment} <br />
                 </p>
                 <div className="star-rating">
                   <StyledRating
